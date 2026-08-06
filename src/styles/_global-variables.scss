@@ -1,0 +1,33 @@
+// Empire Lounge - Global CSS Variables
+// These CSS custom properties are available throughout the application
+
+:root {
+  // Brand Colors
+  --empire-primary: #ff0055;
+  --empire-secondary: #00f0ff;
+  --empire-dark: #0b0c10;
+  --empire-surface: #1f2833;
+  --empire-light: #f4f6f9;
+  --empire-vip-gold: #c5a059;
+  
+  // Neon Glow Effects
+  --empire-neon-glow: 0 0 10px rgba(0, 240, 255, 0.5), 0 0 20px rgba(0, 240, 255, 0.3), 0 0 30px rgba(0, 240, 255, 0.2);
+  --empire-vip-glow: 0 0 10px rgba(197, 160, 89, 0.5), 0 0 20px rgba(197, 160, 89, 0.3);
+  
+  // Bootstrap Color Overrides
+  --bs-body-bg: #0b0c10;
+  --bs-body-color: #f4f6f9;
+  --bs-link-color: #00f0ff;
+  --bs-link-hover-color: #33f3ff;
+  
+  // Card Colors
+  --bs-card-bg: #1f2833;
+  --bs-card-border-color: rgba(0, 240, 255, 0.2);
+  
+  // Form Colors
+  --bs-input-bg: rgba(31, 40, 51, 0.8);
+  --bs-input-border-color: rgba(0, 240, 255, 0.3);
+  --bs-input-focus-border-color: #00f0ff;
+  --bs-input-color: #f4f6f9;
+  --bs-input-placeholder-color: rgba(244, 246, 249, 0.5);
+}
