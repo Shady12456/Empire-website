@@ -1,0 +1,57 @@
+{
+  "title": "Paiement",
+  "orderSummary": "Résumé de la Commande",
+  "items": "{{count}} article(s)",
+  "subtotal": "Sous-total",
+  "fees": "Frais de Service",
+  "total": "Total",
+  "payment": {
+    "title": "Paiement",
+    "method": "Méthode de Paiement",
+    "mobileMoney": "Mobile Money",
+    "selectNetwork": "Sélectionner le Réseau",
+    "orange": "Orange Money",
+    "mtn": "MTN Mobile Money",
+    "nextel": "Nextel",
+    "phoneNumber": "Numéro de Téléphone",
+    "phonePlaceholder": "Entrez votre numéro Mobile Money",
+    "phoneHint": "Vous recevrez une demande de paiement sur ce numéro",
+    "processing": "Traitement de votre paiement...",
+    "waiting": "En attente de confirmation...",
+    "waitingHint": "Veuillez approuver la demande de paiement sur votre téléphone",
+    "timeout": "La demande de paiement a expiré. Veuillez réessayer.",
+    "secureNotice": "Paiement sécurisé par CamPay"
+  },
+  "terms": {
+    "accept": "J'accepte les Conditions d'Utilisation et je comprends que toutes les ventes sont définitives",
+    "cancellation": "Politique d'Annulation",
+    "refundPolicy": "Politique de Remboursement"
+  },
+  "submit": "Finaliser le Paiement",
+  "processing": "Traitement...",
+  "success": {
+    "title": "Paiement Réussi!",
+    "message": "Votre commande a été confirmée",
+    "orderNumber": "Numéro de Commande",
+    "redirecting": "Redirection..."
+  },
+  "error": {
+    "title": "Paiement Échoué",
+    "message": "Nous n'avons pas pu traiter votre paiement",
+    "retry": "Réessayer",
+    "differentPayment": "Utiliser une autre méthode de paiement",
+    "contactSupport": "Contacter le Support"
+  },
+  "pending": {
+    "title": "Paiement en Attente",
+    "message": "Nous attendons la confirmation de votre paiement",
+    "checkStatus": "Vérifier le Statut",
+    "autoRefresh": "Cette page se mettra à jour automatiquement"
+  },
+  "validation": {
+    "phoneRequired": "Le numéro de téléphone est requis",
+    "phoneInvalid": "Veuillez entrer un numéro de téléphone camerounais valide",
+    "termsRequired": "Vous devez accepter les conditions pour continuer",
+    "amountMismatch": "Inadéquation du montant du paiement détectée"
+  }
+}

@@ -1,0 +1,497 @@
+// Empire Hybrid Lounge - Global Styles
+
+// Google Fonts Import
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+// Base styles
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--empire-dark);
+  color: var(--empire-light);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+// Custom scrollbar
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--empire-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--empire-secondary);
+  border-radius: 4px;
+  
+  &:hover {
+    background: var(--empire-primary);
+  }
+}
+
+// Selection
+::selection {
+  background: var(--empire-primary);
+  color: white;
+}
+
+// Focus indicators
+:focus-visible {
+  outline: 2px solid var(--empire-secondary);
+  outline-offset: 2px;
+}
+
+// Links
+a {
+  color: var(--empire-secondary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+  
+  &:hover {
+    color: lighten(#00f0ff, 15%);
+  }
+}
+
+// Neon text effect
+.neon-text {
+  color: var(--empire-secondary);
+  text-shadow: var(--empire-neon-glow);
+}
+
+.neon-primary {
+  color: var(--empire-primary);
+  text-shadow: 0 0 10px rgba(255, 0, 85, 0.5), 0 0 20px rgba(255, 0, 85, 0.3);
+}
+
+// VIP Gold text
+.vip-text {
+  color: var(--empire-vip-gold);
+  text-shadow: var(--empire-vip-glow);
+}
+
+// Card styles
+.empire-card {
+  background: var(--empire-surface);
+  border: 1px solid rgba(0, 240, 255, 0.15);
+  border-radius: 0.75rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 240, 255, 0.15);
+  }
+  
+  &.vip {
+    border-color: rgba(197, 160, 89, 0.4);
+    
+    &:hover {
+      box-shadow: 0 0.5rem 1.5rem rgba(197, 160, 89, 0.2);
+    }
+  }
+}
+
+// Button variants
+.btn-empire-primary {
+  background: linear-gradient(135deg, var(--empire-primary), darken(#ff0055, 10%));
+  border: none;
+  color: white;
+  font-weight: 600;
+  
+  &:hover {
+    background: linear-gradient(135deg, lighten(#ff0055, 5%), var(--empire-primary));
+    color: white;
+    transform: translateY(-1px);
+  }
+  
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+.btn-empire-secondary {
+  background: linear-gradient(135deg, var(--empire-secondary), darken(#00f0ff, 10%));
+  border: none;
+  color: var(--empire-dark);
+  font-weight: 600;
+  
+  &:hover {
+    background: linear-gradient(135deg, lighten(#00f0ff, 5%), var(--empire-secondary));
+    color: var(--empire-dark);
+  }
+}
+
+.btn-empire-outline {
+  background: transparent;
+  border: 2px solid var(--empire-secondary);
+  color: var(--empire-secondary);
+  
+  &:hover {
+    background: rgba(0, 240, 255, 0.1);
+    color: var(--empire-secondary);
+  }
+}
+
+.btn-empire-vip {
+  background: linear-gradient(135deg, var(--empire-vip-gold), darken(#c5a059, 10%));
+  border: none;
+  color: var(--empire-dark);
+  font-weight: 600;
+  
+  &:hover {
+    background: linear-gradient(135deg, lighten(#c5a059, 5%), var(--empire-vip-gold));
+    color: var(--empire-dark);
+  }
+}
+
+// Restaurant section - bright and warm
+.section-restaurant {
+  background: linear-gradient(180deg, var(--empire-dark) 0%, rgba(31, 40, 51, 0.8) 50%, var(--empire-dark) 100%);
+}
+
+// Club section - dark and neon
+.section-club {
+  background: radial-gradient(ellipse at top, rgba(255, 0, 85, 0.05) 0%, var(--empire-dark) 50%);
+}
+
+// Status badges
+.status-badge {
+  padding: 0.35em 0.75em;
+  border-radius: 0.35rem;
+  font-size: 0.85em;
+  font-weight: 500;
+  
+  &.available {
+    background: rgba(40, 167, 69, 0.2);
+    color: #28a745;
+    border: 1px solid rgba(40, 167, 69, 0.3);
+  }
+  
+  &.locked {
+    background: rgba(255, 193, 7, 0.2);
+    color: #ffc107;
+    border: 1px solid rgba(255, 193, 7, 0.3);
+  }
+  
+  &.reserved {
+    background: rgba(0, 240, 255, 0.2);
+    color: var(--empire-secondary);
+    border: 1px solid rgba(0, 240, 255, 0.3);
+  }
+  
+  &.occupied {
+    background: rgba(255, 0, 85, 0.2);
+    color: var(--empire-primary);
+    border: 1px solid rgba(255, 0, 85, 0.3);
+  }
+  
+  &.unavailable {
+    background: rgba(108, 117, 125, 0.2);
+    color: #6c757d;
+    border: 1px solid rgba(108, 117, 125, 0.3);
+  }
+}
+
+// Table map styles
+.table-map {
+  position: relative;
+  background: rgba(11, 12, 16, 0.5);
+  border-radius: 0.75rem;
+  min-height: 400px;
+  
+  .table-marker {
+    position: absolute;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 0.9em;
+    
+    &.standard {
+      background: rgba(40, 167, 69, 0.3);
+      border: 2px solid #28a745;
+      color: #28a745;
+    }
+    
+    &.vip {
+      background: rgba(197, 160, 89, 0.3);
+      border: 2px solid var(--empire-vip-gold);
+      color: var(--empire-vip-gold);
+    }
+    
+    &.vvip {
+      background: rgba(255, 0, 85, 0.2);
+      border: 2px solid var(--empire-primary);
+      color: var(--empire-primary);
+      width: 80px;
+      height: 80px;
+      font-size: 1.1em;
+    }
+    
+    &:hover {
+      transform: scale(1.1);
+      z-index: 10;
+    }
+    
+    &.locked {
+      background: rgba(255, 193, 7, 0.3);
+      border-color: #ffc107;
+      color: #ffc107;
+    }
+    
+    &.reserved {
+      background: rgba(0, 240, 255, 0.3);
+      border-color: var(--empire-secondary);
+      color: var(--empire-secondary);
+    }
+    
+    &.occupied {
+      background: rgba(255, 0, 85, 0.4);
+      border-color: var(--empire-primary);
+      color: var(--empire-primary);
+    }
+  }
+}
+
+// Loading skeleton
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--empire-surface) 25%,
+    rgba(0, 240, 255, 0.1) 50%,
+    var(--empire-surface) 75%
+  );
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s infinite;
+  border-radius: 0.5rem;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+// QR Code styles
+.qr-container {
+  background: white;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  display: inline-block;
+  
+  canvas, img {
+    display: block;
+  }
+}
+
+// Modal backdrop blur
+.modal-backdrop {
+  backdrop-filter: blur(8px);
+}
+
+// Navbar transparency
+.navbar-empire {
+  background: rgba(11, 12, 16, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 240, 255, 0.1);
+  
+  &.scrolled {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  }
+}
+
+// Footer
+.footer-empire {
+  background: var(--empire-dark);
+  border-top: 1px solid rgba(0, 240, 255, 0.1);
+  padding: 3rem 0 2rem;
+  
+  .footer-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--empire-secondary);
+  }
+  
+  .footer-links a {
+    color: rgba(244, 246, 249, 0.7);
+    
+    &:hover {
+      color: var(--empire-secondary);
+    }
+  }
+}
+
+// Kitchen order card
+.kitchen-card {
+  background: var(--empire-surface);
+  border-left: 4px solid var(--empire-secondary);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  transition: all 0.2s ease;
+  
+  &.preparing {
+    border-left-color: #ffc107;
+  }
+  
+  &.ready {
+    border-left-color: #28a745;
+    background: rgba(40, 167, 69, 0.1);
+  }
+  
+  &.completed {
+    border-left-color: #6c757d;
+    opacity: 0.6;
+  }
+}
+
+// Pass card
+.pass-card {
+  background: linear-gradient(135deg, var(--empire-surface) 0%, rgba(255, 0, 85, 0.1) 100%);
+  border: 2px solid var(--empire-primary);
+  border-radius: 1rem;
+  overflow: hidden;
+  
+  .pass-header {
+    background: linear-gradient(135deg, var(--empire-primary), darken(#ff0055, 15%));
+    padding: 1.5rem;
+    color: white;
+  }
+  
+  .pass-qr {
+    background: white;
+    padding: 1rem;
+  }
+}
+
+// Countdown timer
+.countdown {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.25rem;
+  color: var(--empire-secondary);
+  
+  &.urgent {
+    color: var(--empire-primary);
+    animation: pulse 1s infinite;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+// Scanner interface
+.scanner-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 1050;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  .scanner-frame {
+    width: 280px;
+    height: 280px;
+    border: 3px solid var(--empire-secondary);
+    border-radius: 1rem;
+    position: relative;
+    
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border: 2px solid var(--empire-primary);
+      border-radius: 0.75rem;
+      animation: scan 2s ease-in-out infinite;
+    }
+  }
+}
+
+@keyframes scan {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+// Validation states
+.is-valid {
+  border-color: #28a745 !important;
+}
+
+.is-invalid {
+  border-color: var(--empire-primary) !important;
+}
+
+// Responsive utilities
+@include media-breakpoint-down(sm) {
+  .btn {
+    min-height: 48px;
+    min-width: 48px;
+  }
+  
+  .form-control,
+  .form-select {
+    min-height: 48px;
+  }
+}
+
+// Reduced motion
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+// Print styles
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  
+  body {
+    background: white;
+    color: black;
+  }
+}
+
+// Accessibility - Skip link
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--empire-secondary);
+  color: var(--empire-dark);
+  padding: 0.5rem 1rem;
+  z-index: 9999;
+  transition: top 0.2s ease;
+  
+  &:focus {
+    top: 0;
+  }
+}

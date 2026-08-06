@@ -1,0 +1,108 @@
+@use '@/styles/variables' as *;
+
+.eventCard {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  &.featured {
+    border-color: $vip-gold;
+  }
+}
+
+.flyerContainer {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 0.75rem 0.75rem 0 0;
+}
+
+.flyer {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.eventCard:hover .flyer {
+  transform: scale(1.05);
+}
+
+.featuredBadge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: linear-gradient(135deg, $vip-gold, darken($vip-gold, 10%));
+  color: $dark;
+  padding: 0.35rem 0.75rem;
+  border-radius: 0.35rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.eventDate {
+  font-size: 0.9rem;
+  color: $secondary;
+  margin-bottom: 0.75rem;
+}
+
+.eventTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: $light;
+  line-height: 1.3;
+}
+
+.eventVenue {
+  font-size: 0.9rem;
+  color: rgba($light, 0.7);
+  margin-bottom: 1rem;
+}
+
+.eventMeta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba($secondary, 0.1);
+}
+
+.price {
+  font-size: 0.95rem;
+  color: rgba($light, 0.8);
+
+  strong {
+    color: $secondary;
+    font-size: 1.1rem;
+  }
+}
+
+.limited {
+  font-size: 0.85rem;
+  color: #ffc107;
+  animation: pulse 2s infinite;
+}
+
+.soldOut {
+  font-size: 0.9rem;
+  color: $primary;
+  font-weight: 500;
+}
+
+.cardFooter {
+  padding: 1rem;
+  border-top: 1px solid rgba($secondary, 0.1);
+  margin-top: auto;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "menu": {
+    "title": "Notre Menu",
+    "subtitle": "Plats délicieux préparés avec des ingrédients frais",
+    "categories": "Catégories",
+    "featured": "Plats en Vedette",
+    "allItems": "Tous les Plats",
+    "searchPlaceholder": "Rechercher...",
+    "preparationTime": "{{minutes}} min",
+    "addToCart": "Ajouter",
+    "outOfStock": "Rupture de Stock",
+    "unavailable": "Actuellement Indisponible"
+  },
+  "cart": {
+    "title": "Votre Commande",
+    "empty": "Votre panier est vide",
+    "emptyMessage": "Commencez à ajouter des plats depuis notre menu",
+    "item": "Plat",
+    "quantity": "Qté",
+    "price": "Prix",
+    "subtotal": "Sous-total",
+    "fees": "Frais de Service",
+    "total": "Total",
+    "deliveryType": "Type de Commande",
+    "dineIn": "Sur Place",
+    "takeaway": "À Emporter",
+    "selectTable": "Sélectionner une Table",
+    "noTableAvailable": "Aucune table disponible",
+    "customerNote": "Instructions Spéciales",
+    "notePlaceholder": "Allergies ou demandes spéciales?",
+    "proceedToCheckout": "Procéder au Paiement",
+    "continueShopping": "Continuer les Achats",
+    "itemAdded": "Ajouté au panier",
+    "itemRemoved": "Retiré du panier",
+    "quantityUpdated": "Panier mis à jour"
+  },
+  "order": {
+    "title": "Votre Commande",
+    "status": {
+      "draft": "Brouillon",
+      "pending_payment": "En Attente de Paiement",
+      "paid": "Payé",
+      "preparing": "En Préparation",
+      "ready": "Prêt",
+      "completed": "Terminé",
+      "cancelled": "Annulé",
+      "refunded": "Remboursé"
+    },
+    "table": "Table {{number}}",
+    "takeaway": "À Emporter",
+    "estimatedTime": "Temps estimé: {{time}}",
+    "orderNumber": "Commande #{{number}}",
+    "placedAt": "Passée à {{time}}",
+    "paidAt": "Payée à {{time}}",
+    "preparingAt": "Préparation démarrée à {{time}}",
+    "readyAt": "Prête à {{time}}",
+    "completedAt": "Terminée à {{time}}",
+    "history": "Historique des Commandes",
+    "noOrders": "Aucune commande",
+    "noOrdersMessage": "Votre historique de commandes apparaîtra ici"
+  },
+  "closing": {
+    "title": "Cuisine Fermée",
+    "message": "Les commandes sont actuellement fermées",
+    "reopensAt": "Réouvre à {{time}}",
+    "viewMenu": "Vous pouvez toujours consulter notre menu",
+    "lateNight": {
+      "title": "Menu Tardif",
+      "message": "Certains plats sont encore disponibles pour les commandes tardives"
+    }
+  },
+  "kitchen": {
+    "title": "Affichage Cuisine",
+    "columns": {
+      "paid": "Payé",
+      "preparing": "En Préparation",
+      "ready": "Prêt",
+      "completed": "Terminé"
+    },
+    "order": "Commande #{{number}}",
+    "table": "Table {{number}}",
+    "takeaway": "À Emporter",
+    "items": "{{count}} article(s)",
+    "elapsed": "Écoulé: {{time}}",
+    "startPreparing": "Commencer la Préparation",
+    "markReady": "Marquer Prêt",
+    "markCompleted": "Terminer",
+    "newOrder": "Nouvelle Commande",
+    "soundEnabled": "Son Activé",
+    "soundDisabled": "Son Désactivé",
+    "noOrders": "Aucune commande"
+  }
+}

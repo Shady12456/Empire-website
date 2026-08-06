@@ -1,0 +1,57 @@
+{
+  "title": "Checkout",
+  "orderSummary": "Order Summary",
+  "items": "{{count}} item(s)",
+  "subtotal": "Subtotal",
+  "fees": "Service Fee",
+  "total": "Total",
+  "payment": {
+    "title": "Payment",
+    "method": "Payment Method",
+    "mobileMoney": "Mobile Money",
+    "selectNetwork": "Select Network",
+    "orange": "Orange Money",
+    "mtn": "MTN Mobile Money",
+    "nextel": "Nextel",
+    "phoneNumber": "Phone Number",
+    "phonePlaceholder": "Enter your Mobile Money number",
+    "phoneHint": "You will receive a payment request on this number",
+    "processing": "Processing your payment...",
+    "waiting": "Waiting for confirmation...",
+    "waitingHint": "Please approve the payment request on your phone",
+    "timeout": "Payment request timed out. Please try again.",
+    "secureNotice": "Secure payment powered by CamPay"
+  },
+  "terms": {
+    "accept": "I accept the Terms of Service and understand that all sales are final",
+    "cancellation": "Cancellation Policy",
+    "refundPolicy": "Refund Policy"
+  },
+  "submit": "Complete Payment",
+  "processing": "Processing...",
+  "success": {
+    "title": "Payment Successful!",
+    "message": "Your order has been confirmed",
+    "orderNumber": "Order Number",
+    "redirecting": "Redirecting..."
+  },
+  "error": {
+    "title": "Payment Failed",
+    "message": "We couldn't process your payment",
+    "retry": "Try Again",
+    "differentPayment": "Use a different payment method",
+    "contactSupport": "Contact Support"
+  },
+  "pending": {
+    "title": "Payment Pending",
+    "message": "We're waiting for your payment confirmation",
+    "checkStatus": "Check Status",
+    "autoRefresh": "This page will automatically update"
+  },
+  "validation": {
+    "phoneRequired": "Phone number is required",
+    "phoneInvalid": "Please enter a valid Cameroon phone number",
+    "termsRequired": "You must accept the terms to continue",
+    "amountMismatch": "Payment amount mismatch detected"
+  }
+}

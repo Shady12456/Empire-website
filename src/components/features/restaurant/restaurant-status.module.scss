@@ -1,0 +1,45 @@
+@use '@/styles/variables' as *;
+
+.statusBanner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+
+  &.open {
+    background: rgba(#28a745, 0.15);
+    border: 1px solid rgba(#28a745, 0.3);
+    color: #28a745;
+  }
+
+  &.closed {
+    background: rgba($primary, 0.15);
+    border: 1px solid rgba($primary, 0.3);
+    color: $primary;
+  }
+}
+
+.countdown {
+  font-family: 'JetBrains Mono', monospace;
+  
+  strong {
+    color: $secondary;
+  }
+}
+
+.closedContent {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.override {
+  font-size: 0.875rem;
+  color: #ffc107;
+}

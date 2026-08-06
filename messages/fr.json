@@ -1,0 +1,207 @@
+{
+  "brand": {
+    "name": "Empire Lounge",
+    "restaurant": "Restaurant Empire",
+    "club": "Boîte de Nuit Empire",
+    "tagline": "Gastronomie & Vie Nocturne Premium"
+  },
+  "nav": {
+    "home": "Accueil",
+    "restaurant": "Restaurant",
+    "menu": "Menu",
+    "events": "Événements",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "signIn": "Connexion",
+    "signUp": "S'inscrire",
+    "signOut": "Déconnexion",
+    "dashboard": "Tableau de Bord",
+    "admin": "Administration",
+    "orders": "Mes Commandes",
+    "reservations": "Mes Réservations",
+    "passes": "Mes Pass"
+  },
+  "home": {
+    "hero": {
+      "title": "Bienvenue à Empire Lounge",
+      "subtitle": "Découvrez le mélange parfait entre excellence culinaire en journée et divertissement nocturne",
+      "orderNow": "Commander",
+      "viewEvents": "Voir les Événements"
+    },
+    "restaurant": {
+      "title": "Notre Restaurant",
+      "subtitle": "Gastronomie de 8h00 à 17h30",
+      "viewMenu": "Voir le Menu Complet",
+      "featured": "Plats en Vedette",
+      "openNow": "Ouvert Maintenant",
+      "closedNow": "Actuellement Fermé",
+      "orderingClosed": "Les commandes sont actuellement fermées"
+    },
+    "club": {
+      "title": "Boîte de Nuit",
+      "subtitle": "Divertissement premium de 20h00 à 6h00",
+      "viewEvents": "Voir les Événements à Venir",
+      "bookTable": "Réserver une Table",
+      "noEvents": "Aucun événement à venir",
+      "checkBackSoon": "Revenez bientôt pour des événements excitants!"
+    },
+    "location": {
+      "title": "Nous Trouver",
+      "address": "Route Sappa, Face au Terrain Communal de Limbé, Limbé, Cameroun",
+      "directions": "Itinéraire",
+      "mapLoading": "Chargement de la carte..."
+    }
+  },
+  "restaurant": {
+    "menu": {
+      "title": "Notre Menu",
+      "subtitle": "Plats délicieux préparés avec des ingrédients frais",
+      "search": "Rechercher dans le menu...",
+      "allItems": "Tous les Articles",
+      "addToCart": "Ajouter au Panier",
+      "unavailable": "Indisponible",
+      "featured": "En Vedette",
+      "preparationTime": "{{minutes}} min"
+    },
+    "cart": {
+      "title": "Votre Panier",
+      "empty": "Votre panier est vide",
+      "subtotal": "Sous-total",
+      "total": "Total",
+      "checkout": "Procéder au Paiement",
+      "continueShopping": "Continuer les Achats",
+      "quantity": "Quantité",
+      "remove": "Retirer"
+    },
+    "ordering": {
+      "open": "Restaurant Ouvert",
+      "closed": "Commandes Fermées",
+      "closesIn": "Ferme dans",
+      "opensIn": "Ouvre dans",
+      "emergencyActive": "Commande d'urgence activée"
+    }
+  },
+  "events": {
+    "title": "Événements à Venir",
+    "subtitle": "Découvrez les événements passionnants à Empire Lounge",
+    "featured": "Événements en Vedette",
+    "noEvents": "Aucun événement à venir",
+    "checkBackSoon": "Revenez bientôt pour des événements excitants!",
+    "viewDetails": "Voir les Détails",
+    "buyTickets": "Acheter des Billets",
+    "bookTable": "Réserver une Table",
+    "joinList": "Rejoindre la Liste",
+    "soldOut": "Épuisé",
+    "limitedAvailability": "Disponibilité Limitée",
+    "startingFrom": "À partir de"
+  },
+  "auth": {
+    "signIn": {
+      "title": "Connexion",
+      "subtitle": "Bon retour parmi nous",
+      "email": "Adresse Email",
+      "password": "Mot de Passe",
+      "submit": "Se Connecter",
+      "forgotPassword": "Mot de passe oublié ?",
+      "noAccount": "Vous n'avez pas de compte ?",
+      "signUp": "S'inscrire"
+    },
+    "signUp": {
+      "title": "Créer un Compte",
+      "subtitle": "Rejoignez Empire Lounge",
+      "fullName": "Nom Complet",
+      "email": "Adresse Email",
+      "phone": "Numéro de Téléphone",
+      "password": "Mot de Passe",
+      "confirmPassword": "Confirmer le Mot de Passe",
+      "submit": "Créer un Compte",
+      "hasAccount": "Vous avez déjà un compte ?",
+      "signIn": "Se Connecter"
+    },
+    "forgotPassword": {
+      "title": "Réinitialiser le Mot de Passe",
+      "subtitle": "Entrez votre email pour recevoir un lien de réinitialisation",
+      "email": "Adresse Email",
+      "submit": "Envoyer le Lien",
+      "backToSignIn": "Retour à la Connexion"
+    }
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "success": "Succès",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "submit": "Soumettre",
+    "close": "Fermer",
+    "view": "Voir",
+    "download": "Télécharger"
+  },
+  "status": {
+    "available": "Disponible",
+    "reserved": "Réservé",
+    "occupied": "Occupé",
+    "locked": "Verrouillé",
+    "unavailable": "Indisponible",
+    "open": "Ouvert",
+    "closed": "Fermé",
+    "pending": "En Attente",
+    "paid": "Payé",
+    "preparing": "En Préparation",
+    "ready": "Prêt",
+    "completed": "Terminé",
+    "cancelled": "Annulé",
+    "refunded": "Remboursé"
+  },
+  "errors": {
+    "required": "Ce champ est obligatoire",
+    "invalidEmail": "Veuillez entrer une adresse email valide",
+    "invalidPhone": "Veuillez entrer un numéro de téléphone valide",
+    "paymentFailed": "Paiement échoué. Veuillez réessayer.",
+    "networkError": "Erreur réseau. Veuillez vérifier votre connexion.",
+    "serverError": "Une erreur s'est produite. Veuillez réessayer plus tard.",
+    "sessionExpired": "Votre session a expiré. Veuillez vous reconnecter.",
+    "unauthorized": "Vous n'êtes pas autorisé à effectuer cette action."
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation",
+    "refund": "Politique de Remboursement",
+    "followUs": "Suivez-nous",
+    "contactUs": "Contactez-nous",
+    "hours": "Heures d'Ouverture",
+    "openHours": "Restaurant: 8h00 - 17h30 | Club: 20h00 - 6h00"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Entrer en contact avec nous",
+    "address": "Adresse",
+    "phone": "Téléphone",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "hours": "Heures d'Ouverture",
+    "restaurantHours": "Restaurant: 8h00 - 17h30",
+    "clubHours": "Club: 20h00 - 6h00",
+    "sendMessage": "Envoyez-nous un message",
+    "name": "Votre Nom",
+    "message": "Votre Message",
+    "submit": "Envoyer le Message",
+    "successMessage": "Merci ! Nous vous répondrons bientôt.",
+    "errorMessage": "Échec de l'envoi du message. Veuillez réessayer."
+  },
+  "faq": {
+    "title": "Questions Fréquentes",
+    "subtitle": "Trouvez des réponses aux questions courantes",
+    "generalTitle": "Général",
+    "restaurantTitle": "Restaurant",
+    "clubTitle": "Boîte de Nuit",
+    "paymentTitle": "Paiement"
+  }
+}

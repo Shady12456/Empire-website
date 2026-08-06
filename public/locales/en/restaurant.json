@@ -1,0 +1,93 @@
+{
+  "menu": {
+    "title": "Our Menu",
+    "subtitle": "Delicious dishes prepared with fresh ingredients",
+    "categories": "Categories",
+    "featured": "Featured Items",
+    "allItems": "All Items",
+    "searchPlaceholder": "Search menu...",
+    "preparationTime": "{{minutes}} min",
+    "addToCart": "Add",
+    "outOfStock": "Out of Stock",
+    "unavailable": "Currently Unavailable"
+  },
+  "cart": {
+    "title": "Your Order",
+    "empty": "Your cart is empty",
+    "emptyMessage": "Start adding items from our menu",
+    "item": "Item",
+    "quantity": "Qty",
+    "price": "Price",
+    "subtotal": "Subtotal",
+    "fees": "Service Fee",
+    "total": "Total",
+    "deliveryType": "Order Type",
+    "dineIn": "Dine In",
+    "takeaway": "Takeaway",
+    "selectTable": "Select a Table",
+    "noTableAvailable": "No tables available",
+    "customerNote": "Special Instructions",
+    "notePlaceholder": "Any allergies or special requests?",
+    "proceedToCheckout": "Proceed to Payment",
+    "continueShopping": "Continue Shopping",
+    "itemAdded": "Added to cart",
+    "itemRemoved": "Removed from cart",
+    "quantityUpdated": "Cart updated"
+  },
+  "order": {
+    "title": "Your Order",
+    "status": {
+      "draft": "Draft",
+      "pending_payment": "Awaiting Payment",
+      "paid": "Paid",
+      "preparing": "Preparing",
+      "ready": "Ready",
+      "completed": "Completed",
+      "cancelled": "Cancelled",
+      "refunded": "Refunded"
+    },
+    "table": "Table {{number}}",
+    "takeaway": "Takeaway",
+    "estimatedTime": "Estimated time: {{time}}",
+    "orderNumber": "Order #{{number}}",
+    "placedAt": "Placed at {{time}}",
+    "paidAt": "Paid at {{time}}",
+    "preparingAt": "Started preparing at {{time}}",
+    "readyAt": "Ready at {{time}}",
+    "completedAt": "Completed at {{time}}",
+    "history": "Order History",
+    "noOrders": "No orders yet",
+    "noOrdersMessage": "Your order history will appear here"
+  },
+  "closing": {
+    "title": "Kitchen Closed",
+    "message": "Ordering is currently closed",
+    "reopensAt": "Reopens at {{time}}",
+    "viewMenu": "You can still browse our menu",
+    "lateNight": {
+      "title": "Late Night Menu",
+      "message": "Some items are still available for late-night orders"
+    }
+  },
+  "kitchen": {
+    "title": "Kitchen Display",
+    "columns": {
+      "paid": "Paid",
+      "preparing": "Preparing",
+      "ready": "Ready",
+      "completed": "Completed"
+    },
+    "order": "Order #{{number}}",
+    "table": "Table {{number}}",
+    "takeaway": "Takeaway",
+    "items": "{{count}} item(s)",
+    "elapsed": "Elapsed: {{time}}",
+    "startPreparing": "Start Preparing",
+    "markReady": "Mark Ready",
+    "markCompleted": "Complete",
+    "newOrder": "New Order",
+    "soundEnabled": "Sound Enabled",
+    "soundDisabled": "Sound Disabled",
+    "noOrders": "No orders"
+  }
+}

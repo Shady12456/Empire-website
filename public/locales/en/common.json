@@ -1,0 +1,145 @@
+{
+  "brand": {
+    "name": "Empire Lounge",
+    "restaurant": "Empire Restaurant",
+    "club": "Empire Night Club",
+    "tagline": "Where Fine Dining Meets Premium Nightlife"
+  },
+  "nav": {
+    "home": "Home",
+    "restaurant": "Restaurant",
+    "menu": "Menu",
+    "events": "Events",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "signOut": "Sign Out",
+    "dashboard": "Dashboard",
+    "admin": "Admin",
+    "orders": "My Orders",
+    "reservations": "My Reservations",
+    "passes": "My Passes"
+  },
+  "home": {
+    "hero": {
+      "title": "Welcome to Empire Lounge",
+      "subtitle": "Experience the perfect blend of daytime culinary excellence and nighttime entertainment",
+      "orderNow": "Order Now",
+      "viewEvents": "View Events"
+    },
+    "restaurant": {
+      "title": "Our Restaurant",
+      "subtitle": "Fine dining from 8:00 AM to 5:30 PM",
+      "viewMenu": "View Full Menu",
+      "featured": "Featured Dishes"
+    },
+    "club": {
+      "title": "Night Club",
+      "subtitle": "Premium entertainment from 8:00 PM to 6:00 AM",
+      "viewEvents": "View Upcoming Events",
+      "bookTable": "Book a Table"
+    },
+    "location": {
+      "title": "Find Us",
+      "address": "Sappa Road, Opposite Limbe Community Field, Limbe, Cameroon",
+      "directions": "Get Directions"
+    }
+  },
+  "buttons": {
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "close": "Close",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "confirm": "Confirm",
+    "pay": "Pay Now",
+    "addToCart": "Add to Cart",
+    "removeFromCart": "Remove",
+    "checkout": "Checkout",
+    "continue": "Continue Shopping",
+    "download": "Download",
+    "scan": "Scan QR Code",
+    "bookNow": "Book Now",
+    "reserve": "Reserve",
+    "joinList": "Join Guest List"
+  },
+  "status": {
+    "available": "Available",
+    "reserved": "Reserved",
+    "occupied": "Occupied",
+    "locked": "Locked",
+    "unavailable": "Unavailable",
+    "open": "Open",
+    "closed": "Closed",
+    "orderingClosed": "Ordering Closed"
+  },
+  "errors": {
+    "required": "This field is required",
+    "invalidEmail": "Please enter a valid email address",
+    "invalidPhone": "Please enter a valid phone number",
+    "minLength": "Must be at least {{min}} characters",
+    "maxLength": "Must be no more than {{max}} characters",
+    "paymentFailed": "Payment failed. Please try again.",
+    "networkError": "Network error. Please check your connection.",
+    "serverError": "Something went wrong. Please try again later.",
+    "sessionExpired": "Your session has expired. Please sign in again.",
+    "unauthorized": "You are not authorized to perform this action.",
+    "notFound": "The requested resource was not found."
+  },
+  "loading": {
+    "text": "Loading...",
+    "spinner": "Please wait"
+  },
+  "pagination": {
+    "page": "Page {{page}} of {{total}}",
+    "previous": "Previous",
+    "next": "Next",
+    "showing": "Showing {{start}} to {{end}} of {{total}} results"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "refund": "Refund Policy",
+    "followUs": "Follow Us",
+    "contactUs": "Contact Us",
+    "hours": "Business Hours"
+  },
+  "accessibility": {
+    "menu": "Main menu",
+    "close": "Close menu",
+    "expand": "Expand",
+    "collapse": "Collapse",
+    "loading": "Content is loading",
+    "skipToContent": "Skip to main content",
+    "searchInput": "Search input",
+    "clearSearch": "Clear search"
+  },
+  "agePolicy": {
+    "title": "Age Verification",
+    "message": "You must be 18 years or older to enter the night club.",
+    "confirm": "I confirm that I am 18 years or older",
+    "decline": "I am under 18"
+  },
+  "countdown": {
+    "opensIn": "Opens in {{time}}",
+    "closesIn": "Closes in {{time}}",
+    "orderingEnds": "Ordering ends in {{time}}",
+    "orderingClosed": "Ordering is currently closed"
+  },
+  "table": {
+    "code": "Table {{code}}",
+    "section": "Section: {{section}}",
+    "capacity": "Capacity: {{count}} guests",
+    "deposit": "Deposit: {{amount}}",
+    "minimumSpend": "Minimum: {{amount}}",
+    "select": "Select Table",
+    "noTables": "No tables available for this event"
+  }
+}

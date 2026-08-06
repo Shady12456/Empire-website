@@ -1,0 +1,195 @@
+@use '@/styles/variables' as *;
+
+.main {
+  overflow-x: hidden;
+}
+
+// Hero Section
+.hero {
+  position: relative;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 6rem 0;
+  overflow: hidden;
+}
+
+.heroBackground {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(11, 12, 16, 0.95) 0%, rgba(255, 0, 85, 0.1) 50%, rgba(11, 12, 16, 0.95) 100%);
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 30% 70%, rgba(0, 240, 255, 0.15) 0%, transparent 50%),
+      radial-gradient(circle at 70% 30%, rgba(255, 0, 85, 0.1) 0%, transparent 50%);
+  }
+}
+
+.heroOverlay {
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2300f0ff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.heroContent {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.heroTitle {
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+}
+
+.heroSubtitle {
+  font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+  color: rgba(244, 246, 249, 0.85);
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+}
+
+.heroActions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+// Section
+.section {
+  padding: 5rem 0;
+
+  @media (max-width: 768px) {
+    padding: 3rem 0;
+  }
+}
+
+.sectionRestaurant {
+  background: linear-gradient(180deg, #0b0c10 0%, rgba(31, 40, 51, 0.5) 50%, #0b0c10 100%);
+}
+
+.sectionClub {
+  background: radial-gradient(ellipse at top, rgba(255, 0, 85, 0.05) 0%, transparent 50%);
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.sectionTitle {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: $light;
+}
+
+.sectionSubtitle {
+  font-size: 1.1rem;
+  color: rgba(244, 246, 249, 0.7);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.sectionAction {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+// Featured Grid
+.featuredGrid {
+  margin-top: 3rem;
+}
+
+.featuredTitle {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  color: $secondary;
+}
+
+// Card
+.cardImage {
+  height: 160px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+}
+
+.empire-card:hover .cardImage img {
+  transform: scale(1.05);
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba($secondary, 0.1);
+}
+
+.price {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: $secondary;
+}
+
+// Location
+.locationContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+.locationInfo {
+  .address {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.locationMap {
+  .mapPlaceholder {
+    background: $surface;
+    border-radius: 0.75rem;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba($secondary, 0.2);
+
+    i {
+      font-size: 3rem;
+      color: $secondary;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      color: rgba($light, 0.5);
+    }
+  }
+}

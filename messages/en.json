@@ -1,0 +1,330 @@
+{
+  "brand": {
+    "name": "Empire Lounge",
+    "restaurant": "Empire Restaurant",
+    "club": "Empire Night Club",
+    "tagline": "Fine Dining & Premium Nightlife"
+  },
+  "nav": {
+    "home": "Home",
+    "restaurant": "Restaurant",
+    "menu": "Menu",
+    "events": "Events",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "signOut": "Sign Out",
+    "dashboard": "Dashboard",
+    "admin": "Admin",
+    "orders": "My Orders",
+    "reservations": "My Reservations",
+    "passes": "My Passes"
+  },
+  "home": {
+    "hero": {
+      "title": "Welcome to Empire Lounge",
+      "subtitle": "Experience the perfect blend of daytime culinary excellence and nighttime entertainment",
+      "orderNow": "Order Now",
+      "viewEvents": "View Events"
+    },
+    "restaurant": {
+      "title": "Our Restaurant",
+      "subtitle": "Fine dining from 8:00 AM to 5:30 PM",
+      "viewMenu": "View Full Menu",
+      "featured": "Featured Dishes",
+      "openNow": "Open Now",
+      "closedNow": "Currently Closed",
+      "orderingClosed": "Ordering is currently closed"
+    },
+    "club": {
+      "title": "Night Club",
+      "subtitle": "Premium entertainment from 8:00 PM to 6:00 AM",
+      "viewEvents": "View Upcoming Events",
+      "bookTable": "Book a Table",
+      "noEvents": "No upcoming events",
+      "checkBackSoon": "Check back soon for exciting events!"
+    },
+    "location": {
+      "title": "Find Us",
+      "address": "Sappa Road, Opposite Limbe Community Field, Limbe, Cameroon",
+      "directions": "Get Directions",
+      "mapLoading": "Map loading..."
+    }
+  },
+  "restaurant": {
+    "menu": {
+      "title": "Our Menu",
+      "subtitle": "Delicious dishes prepared with fresh ingredients",
+      "search": "Search menu items...",
+      "allItems": "All Items",
+      "addToCart": "Add to Cart",
+      "unavailable": "Unavailable",
+      "featured": "Featured",
+      "preparationTime": "{{minutes}} min"
+    },
+    "cart": {
+      "title": "Your Cart",
+      "empty": "Your cart is empty",
+      "subtotal": "Subtotal",
+      "total": "Total",
+      "checkout": "Proceed to Checkout",
+      "continueShopping": "Continue Shopping",
+      "quantity": "Quantity",
+      "remove": "Remove",
+      "dineIn": "Dine In",
+      "takeaway": "Takeaway",
+      "delivery": "Delivery",
+      "selectType": "Select Order Type",
+      "selectTable": "Select Table",
+      "deliveryAddress": "Delivery Address"
+    },
+    "ordering": {
+      "open": "Restaurant Open",
+      "closed": "Ordering Closed",
+      "closesIn": "Closes in",
+      "opensIn": "Opens in",
+      "emergencyActive": "Emergency ordering active"
+    },
+    "delivery": {
+      "title": "Delivery Address",
+      "selectZone": "Select your area",
+      "streetAddress": "Street Address",
+      "streetPlaceholder": "Enter your street address",
+      "landmark": "Nearby Landmark",
+      "landmarkPlaceholder": "e.g., Near the market, Opposite church",
+      "instructions": "Delivery Instructions",
+      "instructionsPlaceholder": "Any special instructions for the delivery person...",
+      "useLocation": "Use my current location",
+      "gettingLocation": "Getting location...",
+      "locationError": "Could not get location",
+      "minOrder": "Min. order",
+      "deliveryFee": "Delivery fee",
+      "estimatedTime": "Est. delivery time",
+      "minutes": "min",
+      "locationUsed": "Location used"
+    }
+  },
+  "events": {
+    "title": "Upcoming Events",
+    "subtitle": "Discover exciting events at Empire Lounge",
+    "featured": "Featured Events",
+    "noEvents": "No upcoming events",
+    "checkBackSoon": "Check back soon for exciting events!",
+    "viewDetails": "View Details",
+    "buyTickets": "Buy Tickets",
+    "bookTable": "Book Table",
+    "joinList": "Join Guest List",
+    "soldOut": "Sold Out",
+    "limitedAvailability": "Limited Availability",
+    "startingFrom": "Starting from"
+  },
+  "club": {
+    "packages": {
+      "title": "Choose a Package",
+      "selectedTables": "{{count}} table(s) selected",
+      "maxSelect": "Maximum {{max}} tables",
+      "drinks": "Drink Packages",
+      "champagne": "Champagne",
+      "bottles": "Bottle Service",
+      "vipGold": "VIP Gold",
+      "popular": "Popular",
+      "vip": "VIP Gold",
+      "includes": "Includes:",
+      "perTable": "/ table",
+      "deposit": "Deposit:",
+      "minSpend": "Min spend:",
+      "tablesIncluded": "tables included"
+    },
+    "tables": {
+      "selectTables": "Select Tables",
+      "viewMap": "View Map",
+      "viewList": "View List",
+      "capacity": "Capacity",
+      "guests": "guests",
+      "section": "Section",
+      "standard": "Standard",
+      "regular": "Regular",
+      "vip": "VIP",
+      "vvip": "VVIP",
+      "available": "Available",
+      "reserved": "Reserved",
+      "occupied": "Occupied",
+      "locked": "Locked",
+      "unavailable": "Unavailable",
+      "selected": "Selected"
+    },
+    "reservation": {
+      "title": "Table Reservation",
+      "guestCount": "Number of Guests",
+      "note": "Special Requests",
+      "notePlaceholder": "Any special requests or occasions...",
+      "totalDeposit": "Total Deposit",
+      "proceedToPayment": "Proceed to Payment"
+    }
+  },
+  "auth": {
+    "signIn": {
+      "title": "Sign In",
+      "subtitle": "Welcome back",
+      "email": "Email Address",
+      "password": "Password",
+      "submit": "Sign In",
+      "forgotPassword": "Forgot password?",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign Up"
+    },
+    "signUp": {
+      "title": "Create Account",
+      "subtitle": "Join Empire Lounge",
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "submit": "Create Account",
+      "hasAccount": "Already have an account?",
+      "signIn": "Sign In"
+    },
+    "forgotPassword": {
+      "title": "Reset Password",
+      "subtitle": "Enter your email to receive a reset link",
+      "email": "Email Address",
+      "submit": "Send Reset Link",
+      "backToSignIn": "Back to Sign In"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "close": "Close",
+    "view": "View",
+    "download": "Download"
+  },
+  "status": {
+    "available": "Available",
+    "reserved": "Reserved",
+    "occupied": "Occupied",
+    "locked": "Locked",
+    "unavailable": "Unavailable",
+    "open": "Open",
+    "closed": "Closed",
+    "pending": "Pending",
+    "paid": "Paid",
+    "preparing": "Preparing",
+    "ready": "Ready",
+    "completed": "Completed",
+    "cancelled": "Cancelled",
+    "refunded": "Refunded"
+  },
+  "errors": {
+    "required": "This field is required",
+    "invalidEmail": "Please enter a valid email address",
+    "invalidPhone": "Please enter a valid phone number",
+    "paymentFailed": "Payment failed. Please try again.",
+    "networkError": "Network error. Please check your connection.",
+    "serverError": "Something went wrong. Please try again later.",
+    "sessionExpired": "Your session has expired. Please sign in again.",
+    "unauthorized": "You are not authorized to perform this action."
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "refund": "Refund Policy",
+    "followUs": "Follow Us",
+    "contactUs": "Contact Us",
+    "hours": "Business Hours",
+    "openHours": "Restaurant: 8:00 AM - 5:30 PM | Club: 8:00 PM - 6:00 AM"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with us",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "hours": "Business Hours",
+    "restaurantHours": "Restaurant: 8:00 AM - 5:30 PM",
+    "clubHours": "Club: 8:00 PM - 6:00 AM",
+    "sendMessage": "Send us a message",
+    "name": "Your Name",
+    "message": "Your Message",
+    "submit": "Send Message",
+    "successMessage": "Thank you! We'll get back to you soon.",
+    "errorMessage": "Failed to send message. Please try again.",
+    "mapTitle": "Find Us on Map"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions",
+    "stillHaveQuestions": "Still have questions?",
+    "contactUs": "Contact Us",
+    "restaurant": "Restaurant",
+    "restaurantHours": {
+      "question": "What are the restaurant operating hours?",
+      "answer": "Our restaurant operates daily from 8:00 AM to 5:30 PM. Orders can be placed during these hours. The menu remains visible outside operating hours, but ordering is disabled."
+    },
+    "orderingHours": {
+      "question": "When can I place food orders?",
+      "answer": "Orders can be placed from 8:00 AM to 5:30 PM. We also offer takeaway service during these hours. For special occasions, restaurant managers can enable an emergency override."
+    },
+    "takeaway": {
+      "question": "Do you offer takeaway/delivery?",
+      "answer": "Yes! We offer both takeaway and delivery services within Limbe. Delivery fees and estimated times vary by zone. You can also use your current location for easier delivery."
+    },
+    "reservations": {
+      "question": "Can I reserve a restaurant table?",
+      "answer": "Yes, dine-in reservations are available. You can select your preferred table when placing your order."
+    },
+    "club": "Night Club",
+    "clubHours": {
+      "question": "What are the club operating hours?",
+      "answer": "The club operates from 8:00 PM to 6:00 AM. Events, tickets, and table reservations can be booked at any time."
+    },
+    "agePolicy": {
+      "question": "What is the age policy?",
+      "answer": "Most events are 18+. Some events may require 21+. Please check the specific event for age requirements. Valid ID is required at entry."
+    },
+    "dressCode": {
+      "question": "What is the dress code?",
+      "answer": "Smart casual is generally required. Specific dress codes are mentioned in event descriptions. No sportswear, flip-flops, or offensive clothing."
+    },
+    "tableReservation": {
+      "question": "How do I reserve a club table?",
+      "answer": "Browse our events, select your preferred date, and choose your table(s) from the floor map. Select a package that includes drinks and bottles. Pay a deposit to confirm your reservation."
+    },
+    "tickets": "Tickets",
+    "buyTickets": {
+      "question": "How do I buy tickets?",
+      "answer": "Browse our events page, select your event, choose ticket type and quantity, then proceed to payment. You'll receive a digital pass with QR code."
+    },
+    "refundPolicy": {
+      "question": "What is your refund policy?",
+      "answer": "Tickets and reservations are generally non-refundable unless an event is cancelled. Table deposits may be refunded under specific circumstances. Contact us for assistance."
+    },
+    "passEntry": {
+      "question": "How do I use my digital pass?",
+      "answer": "Show your QR code pass at the entrance. Bouncers will scan it to verify your ticket or reservation. Make sure your phone has good battery!"
+    },
+    "payment": "Payment",
+    "paymentMethods": {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept Mobile Money payments (MTN, Orange). Payment is processed securely through our payment partners."
+    },
+    "prices": {
+      "question": "Are prices in XAF?",
+      "answer": "Yes, all prices are in Central African CFA Francs (XAF). This is the local currency used in Cameroon."
+    }
+  }
+}

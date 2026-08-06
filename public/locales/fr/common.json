@@ -1,0 +1,145 @@
+{
+  "brand": {
+    "name": "Empire Lounge",
+    "restaurant": "Restaurant Empire",
+    "club": "Boîte de Nuit Empire",
+    "tagline": "Là où la Gastronomie Rencontre la Vie Nocturne Premium"
+  },
+  "nav": {
+    "home": "Accueil",
+    "restaurant": "Restaurant",
+    "menu": "Menu",
+    "events": "Événements",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "signIn": "Connexion",
+    "signUp": "S'inscrire",
+    "signOut": "Déconnexion",
+    "dashboard": "Tableau de Bord",
+    "admin": "Administration",
+    "orders": "Mes Commandes",
+    "reservations": "Mes Réservations",
+    "passes": "Mes Pass"
+  },
+  "home": {
+    "hero": {
+      "title": "Bienvenue à Empire Lounge",
+      "subtitle": "Découvrez le mélange parfait entre excellence culinaire en journée et divertissement nocturne",
+      "orderNow": "Commander Maintenant",
+      "viewEvents": "Voir les Événements"
+    },
+    "restaurant": {
+      "title": "Notre Restaurant",
+      "subtitle": "Gastronomie de 8h00 à 17h30",
+      "viewMenu": "Voir le Menu Complet",
+      "featured": "Plats en Vedette"
+    },
+    "club": {
+      "title": "Boîte de Nuit",
+      "subtitle": "Divertissement premium de 20h00 à 6h00",
+      "viewEvents": "Voir les Événements à Venir",
+      "bookTable": "Réserver une Table"
+    },
+    "location": {
+      "title": "Nous Trouver",
+      "address": "Route Sappa, Face au Terrain Communal de Limbé, Limbé, Cameroun",
+      "directions": "Itinéraire"
+    }
+  },
+  "buttons": {
+    "submit": "Soumettre",
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "view": "Voir",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "confirm": "Confirmer",
+    "pay": "Payer Maintenant",
+    "addToCart": "Ajouter au Panier",
+    "removeFromCart": "Retirer",
+    "checkout": "Paiement",
+    "continue": "Continuer les Achats",
+    "download": "Télécharger",
+    "scan": "Scanner le Code QR",
+    "bookNow": "Réserver",
+    "reserve": "Réserver",
+    "joinList": "Rejoindre la Liste"
+  },
+  "status": {
+    "available": "Disponible",
+    "reserved": "Réservé",
+    "occupied": "Occupé",
+    "locked": "Verrouillé",
+    "unavailable": "Indisponible",
+    "open": "Ouvert",
+    "closed": "Fermé",
+    "orderingClosed": "Commandes Fermées"
+  },
+  "errors": {
+    "required": "Ce champ est obligatoire",
+    "invalidEmail": "Veuillez entrer une adresse email valide",
+    "invalidPhone": "Veuillez entrer un numéro de téléphone valide",
+    "minLength": "Doit contenir au moins {{min}} caractères",
+    "maxLength": "Ne doit pas dépasser {{max}} caractères",
+    "paymentFailed": "Paiement échoué. Veuillez réessayer.",
+    "networkError": "Erreur réseau. Veuillez vérifier votre connexion.",
+    "serverError": "Une erreur s'est produite. Veuillez réessayer plus tard.",
+    "sessionExpired": "Votre session a expiré. Veuillez vous reconnecter.",
+    "unauthorized": "Vous n'êtes pas autorisé à effectuer cette action.",
+    "notFound": "La ressource demandée n'a pas été trouvée."
+  },
+  "loading": {
+    "text": "Chargement...",
+    "spinner": "Veuillez patienter"
+  },
+  "pagination": {
+    "page": "Page {{page}} sur {{total}}",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "showing": "Affichage de {{start}} à {{end}} sur {{total}} résultats"
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation",
+    "refund": "Politique de Remboursement",
+    "followUs": "Suivez-nous",
+    "contactUs": "Contactez-nous",
+    "hours": "Heures d'Ouverture"
+  },
+  "accessibility": {
+    "menu": "Menu principal",
+    "close": "Fermer le menu",
+    "expand": "Développer",
+    "collapse": "Réduire",
+    "loading": "Le contenu est en cours de chargement",
+    "skipToContent": "Aller au contenu principal",
+    "searchInput": "Champ de recherche",
+    "clearSearch": "Effacer la recherche"
+  },
+  "agePolicy": {
+    "title": "Vérification d'Âge",
+    "message": "Vous devez avoir 18 ans ou plus pour entrer dans la boîte de nuit.",
+    "confirm": "Je confirme avoir 18 ans ou plus",
+    "decline": "J'ai moins de 18 ans"
+  },
+  "countdown": {
+    "opensIn": "Ouverture dans {{time}}",
+    "closesIn": "Fermeture dans {{time}}",
+    "orderingEnds": "Fin des commandes dans {{time}}",
+    "orderingClosed": "Les commandes sont actuellement fermées"
+  },
+  "table": {
+    "code": "Table {{code}}",
+    "section": "Section: {{section}}",
+    "capacity": "Capacité: {{count}} invités",
+    "deposit": "Acompte: {{amount}}",
+    "minimumSpend": "Minimum: {{amount}}",
+    "select": "Sélectionner la Table",
+    "noTables": "Aucune table disponible pour cet événement"
+  }
+}
